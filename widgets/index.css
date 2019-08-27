@@ -1,0 +1,62 @@
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+}
+
+body {
+  background-color: f4f4f4;
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  background-color: white;
+}
+
+.clock-element {
+  border: 3px solid magenta;
+  width:600px;
+  align-content: center;
+}
+
+.day {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-between;
+}
+.tab {
+
+  width: 300px;
+}
+.tab-header {
+  font-weight: bold;
+  margin-right: 3px;
+  display: inline-block;
+  border: 2px solid purple;
+  border-radius: 6px 6px 0px 0px;
+  border-bottom: 0px;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+  border: 2px solid purple;
+  height: 200px;
+}
+
+.tab-header:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}
